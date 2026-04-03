@@ -9,12 +9,18 @@
     "dev": "pnpm run build && pnpm run start"
   },
   "devDependencies": {
-    "@repo/typescript-config": "workspace:*"
+    "@repo/typescript-config": "workspace:*",
+    "@repo/backend-common": "workspace:*",
+    "@repo/common": "workspace:*"
   },
   "dependencies": {
     "@repo/typescript-config": "workspace:*",
     "@types/express": "^5.0.6",
-    "express": "^5.2.1"
+    "@types/jsonwebtoken": "^9.0.10",
+    "dotenv": "^17.4.0",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "zod": "^4.3.6"
   },
   "keywords": [],
   "author": "",
